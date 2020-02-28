@@ -1,0 +1,112 @@
+$color-teal: #17A2B8;
+$color-primary: #336699;
+$color-secondary: #003366;
+$color-tertiary: #C0C0C0;
+$color-pale: #CEC8FF;
+$color-mid: #003366;
+$color-dark: #000044;
+$color-black-transparent: rgba(0, 0, 0, 0.5);
+$body-font: "Open Sans", sans-serif;
+$header-font: "Lobster", cursive;
+body {
+    font-family: $body-font;
+    font-size: 24px;
+}
+h1, h2, h3 {
+    font-family: $header-font;
+}
+h2 {
+    color: $color-primary;
+}
+header {
+    h2 {
+        color: $color-pale;
+    }
+}
+.site-footer {
+    background-image: linear-gradient($color-tertiary, white);
+    padding: 20px 0;
+}
+.jumbotron {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to left, $color-secondary, $color-primary);
+    color: white;
+    height: 100px;
+}
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+.navbar-dark {
+    background-color: $color-mid;
+}
+.carousel {
+    border: solid $color-secondary;
+}
+.carousel-caption {
+    background-color: $color-black-transparent;
+}
+#carouselButton {
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+}
+
+#loginModal {
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}
+
+#signInModal{
+    .modal-header {
+        background-color: $color-mid;
+        color: white;
+    }
+}
+
+#logoHeader{
+    max-width: 200%;
+    height: auto;
+}
+
+#categoryButton{
+    width: 125px;
+}
+
+#redBrush{
+    border: 0;
+}
+
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
+
